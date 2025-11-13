@@ -17,6 +17,44 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/texto_coca"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coca Cola" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/coca" />
+
+            <TextView
+                android:id="@+id/texto_fanta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fanta" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/fanta" />
+
+            <TextView
+                android:id="@+id/texto_sprite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sprite" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                app:srcCompat="@drawable/sprite" />
+
+        </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,3 +43,49 @@ android:layout_width="match_parent"
 androi:layout_height="wrap_content"
 android:contentDescription="@string/texto_rondelli"
 app:srcCompat="@drawable/rondelli.png" />
+
+<resources>
+<string name="app_name">CardapioProject</string>
+<string name="texto_coca">Coca-Cola</string>
+<string name="texto_fanta">Fanta</string>
+<string name="texto_sprite">Sprite</string>
+</resources>
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:text="@string/texto_coca"/>
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:text="@string/texto_fanta"/>
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:text="@string/texto_sprite"/>
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_coca"
+app:srcCompat="@drawable/coca.png" />
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_fanta"
+app:srcCompat="@drawable/fanta.png" />
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_sprite"
+app:srcCompat="@drawable/sprite.png" />
