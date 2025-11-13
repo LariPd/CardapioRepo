@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">CardapioProject</string>
+    <string name="texto_macarraocarbonara">Macarrão Carbonara</string>
+    <string name="texto_risotto">Risoto cremoso</string>
+    <string name="texto_rondelli">Rondelli italiano</string>
 </resources>
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    androi:layout_height="wrap_content"
+    android:text="@string/texto_macarraocarbonara"/>
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:text="@string/texto_risotto"/>
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:text="@string/texto_rondelli"/>
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_macarraocarbonara"
+app:srcCompat="@drawable/macarrao" />
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_risotto"
+app:srcCompat="@drawable/risotto" />
+
+<ImageView
+android:id="@+id/ImageView"
+android:layout_width="match_parent"
+androi:layout_height="wrap_content"
+android:contentDescription="@string/texto_rondelli"
+app:srcCompat="@drawable/rondelli" />
