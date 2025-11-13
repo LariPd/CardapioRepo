@@ -28,18 +28,18 @@ android:id="@+id/ImageView"
 android:layout_width="match_parent"
 androi:layout_height="wrap_content"
 android:contentDescription="@string/texto_macarraocarbonara"
-app:srcCompat="@drawable/macarrao" />
+app:srcCompat="@drawable/macarrao.png" />
 
 <ImageView
 android:id="@+id/ImageView"
 android:layout_width="match_parent"
 androi:layout_height="wrap_content"
 android:contentDescription="@string/texto_risotto"
-app:srcCompat="@drawable/risotto" />
+app:srcCompat="@drawable/risotto.png" />
 
 <ImageView
 android:id="@+id/ImageView"
 android:layout_width="match_parent"
 androi:layout_height="wrap_content"
 android:contentDescription="@string/texto_rondelli"
-app:srcCompat="@drawable/rondelli" />
+app:srcCompat="@drawable/rondelli.png" />
